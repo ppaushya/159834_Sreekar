@@ -1,23 +1,12 @@
-package cap.org.day4demo;
-import java.util.Scanner;
-public class ASSGN3 {
+package day5demo.cap.org.demo;
 
+public class ASSGN3  implements Assg3{
 
-   public static void main(String args[]){
-      int number;
-      Scanner sc = new Scanner(System.in);
-      System.out.println("Enter a number ::");
-      number = sc.nextInt();
-      
-      for(int i = 2; i< number; i++) {
-         while(number%i == 0) {
-            System.out.println(i+" ");
-            number = number/i;
-         }
-      }
-      if(number >2) {
-         System.out.println(number);
-      }
-   }
+	public void display_grade() {
+		System.out.println(" this is display grade for pg students");
+	}
+
+	public void attendence() {
+		System.out.println(" this is attendence for pgstudents");
+	}
 }
-
